@@ -1,0 +1,77 @@
+@import '../../styles/variables';
+
+.bar {
+  height: 70px;
+}
+
+.logo {
+  float: left;
+  margin-top: 25px;
+  margin-left: 70px;
+  font-size: 40px;
+  line-height: 28px;
+  color: #222222;
+  font-family: 'Tahu!';
+}
+
+.menu {
+  float: left;
+  margin-left: 120px;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.nav-menu {
+  font-size: 11.5px;
+  line-height: 28px;
+  color: #222222;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.menu a {
+  text-decoration: none; /*убираем подчёркивание текста ссылок*/
+  display: block;
+}
+
+.book-now {
+  float: left;
+  margin-left: 380px;
+  margin-top: 22px;
+}
+
+.book-now button {
+  height: 25px;
+  width: 86px;
+  background-color: $redColor;
+  color: white;
+  border: white;
+  border-radius: 0.1rem 0.1rem 0.2rem 0.2rem ;
+  text-align: center;
+  font-size: 11px;
+  font-family: Poppins, sans-serif;
+}
+
+.book-now button:hover {
+  background-color: #ff6b61;
+}
+
+.book-now button:focus {
+  border: none;
+  outline: none;
+}
+
+.book-now button:active {
+  background-color: #fa1100;
+}

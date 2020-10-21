@@ -1,13 +1,13 @@
 import React from "react";
 
 import "./App.scss";
-import { NewComponent } from "./components/NewComponent";
+import {Header} from "./components/Header/Header";
+
 
 function App() {
   return (
     <div className="App">
-      App
-      <NewComponent />
+      <Header />
     </div>
   );
 }

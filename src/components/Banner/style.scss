@@ -1,0 +1,53 @@
+@import '../../styles/variables';
+
+.ban {
+  height: 363px;
+  background: url('~assets/Banner.png');
+  background-size: 100%;
+  float: top;
+}
+
+.banner-content {
+  color: white;
+  padding-left: 123px;
+  padding-top: 45px;
+  font-family: "Poppins", sans-serif;
+}
+
+.banner-title {
+  line-height: 57px;
+  font-size: 49px;
+  font-weight: 900;
+}
+
+.banner-text {
+  line-height: 47px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.banner-button button{
+  margin-top: 18px;
+  height: 32px;
+  width: 155px;
+  background-color: $redColor;
+  color: white;
+  border: white;
+  border-radius: 0.1rem 0.1rem 0.2rem 0.2rem ;
+  text-align: center;
+  font-size: 12.5px;
+  font-family: Poppins, sans-serif;
+}
+
+.banner-button button:hover {
+  background-color: #ff6b61;
+}
+
+.banner-button button:focus {
+  border: none;
+  outline: none;
+}
+
+.banner-button button:active {
+  background-color: #fa1100;
+}
