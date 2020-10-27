@@ -17,9 +17,18 @@ export const AppBar: React.FC = () => {
                     <li><a>Blog</a></li>
                 </ul>
             </div>
+            <div className="book-now">
+                <button>Book Now</button>
+            </div>
+            <div className="socials">
+                <ul>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                </ul>
+            </div>
         </nav>
-        <div className="book-now">
-        <button>Book Now</button>
-        </div>
     </div>;
 };
